@@ -1,0 +1,6 @@
+<font size=-1>
+<b>THE PICNICMAN</b><br>
+Jeff O'Connell<br>
+203-329-7110<br>
+<a href=mailto:picnicman@picnicman.com>picnicman@picnicman.com</a>
+</font>
