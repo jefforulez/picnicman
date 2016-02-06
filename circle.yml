@@ -9,8 +9,8 @@ dependencies:
 
 test:
     override:
-        - /home/ubuntu/.rvm/rubies/ruby-2.2.3/bin/bundle exec jekyll build
-        - /home/ubuntu/.rvm/rubies/ruby-2.2.3/bin/bundle exec htmlproof
+        - /home/ubuntu/.rvm/gems/ruby-2.2.3@global/bin/bundle exec jekyll build
+        - /home/ubuntu/.rvm/gems/ruby-2.2.3@global/bin/bundle exec htmlproof
 
 deployment:
 
