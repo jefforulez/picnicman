@@ -4,13 +4,13 @@
 
 dependencies:
     override:
-        - /home/ubuntu/.rvm/gems/ruby-2.2.3@global/bin/bundle install
+        - PATH="/home/ubuntu/.rvm/rubies/ruby-2.2.3/bin/:$PATH" /home/ubuntu/.rvm/gems/ruby-2.2.3@global/bin/bundle install
         - sudo pip install awscli
 
 test:
     override:
-        - /home/ubuntu/.rvm/gems/ruby-2.2.3@global/bin/bundle exec jekyll build
-        - /home/ubuntu/.rvm/gems/ruby-2.2.3@global/bin/bundle exec htmlproof
+        - PATH="/home/ubuntu/.rvm/rubies/ruby-2.2.3/bin/:$PATH" /home/ubuntu/.rvm/gems/ruby-2.2.3@global/bin/bundle exec jekyll build
+        - PATH="/home/ubuntu/.rvm/rubies/ruby-2.2.3/bin/:$PATH" /home/ubuntu/.rvm/gems/ruby-2.2.3@global/bin/bundle exec htmlproof
 
 deployment:
 
