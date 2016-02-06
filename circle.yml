@@ -1,8 +1,4 @@
 
-machine:
-  ruby:
-    version: rbx-2.2.3
-
 dependencies:
     override:
         - bundle install
