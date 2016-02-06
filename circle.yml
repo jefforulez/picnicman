@@ -1,4 +1,8 @@
 
+machine:
+  ruby:
+    version: rbx-2.3.0
+
 dependencies:
     override:
         - bundle install
