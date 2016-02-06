@@ -1,0 +1,21 @@
+
+source: _source
+
+url: "http://www.picnicman.com/"
+
+title: The Picnicman
+
+description: >
+  Since 1976, The Picnicman has provided both
+  fun-filled recreation and entertainment for companies and organizations of all sizes
+  throughout Connecticut and the New York City Metropolitan area.
+
+markdown: kramdown
+
+excerpt_separator: "<!-- more -->"
+
+gems:
+  - octopress-autoprefixer
+  - jekyll-sitemap
+
+baseurl: ""

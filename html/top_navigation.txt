@@ -1,8 +1,0 @@
-<font size=-1>
-<a href=./index.html>Home</a> |
-<a href=./team.html>Team Building</a> |
-<a href=./activities.html>Activities</a> |
-<a href=./contact.html>Contact Info</a> |
-<a href=./clients.html>Client List</a> |
-<a href=./photographs/>Photographs</a>
-</font>

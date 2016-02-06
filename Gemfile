@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'jekyll'
+gem 'octopress-autoprefixer'
+gem 'html-proofer'
+gem 'jekyll-sitemap'
+gem 'i18n'
