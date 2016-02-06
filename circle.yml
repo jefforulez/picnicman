@@ -4,7 +4,7 @@
 
 dependencies:
     override:
-        - PATH="/home/ubuntu/.rvm/rubies/ruby-2.2.3/bin/:$PATH" bundle install
+        - PATH="/home/ubuntu/.rvm/rubies/ruby-2.2.3/bin/:$PATH" /home/ubuntu/.rvm/gems/ruby-2.2.3@global/bin/bundle install
         - sudo pip install awscli
 
 test:
