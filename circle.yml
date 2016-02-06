@@ -1,13 +1,16 @@
 
+# /home/ubuntu/.rvm/rubies/ruby-2.2.3/bin/
+# /home/ubuntu/.rvm/gems/ruby-2.2.3@global/bin
+
 dependencies:
     override:
-        - bundle install
+        - /home/ubuntu/.rvm/gems/ruby-2.2.3@global/bin/bundle install
         - sudo pip install awscli
 
 test:
     override:
-        - bash ./build_site.sh
-        - bundle exec htmlproof
+        - /home/ubuntu/.rvm/rubies/ruby-2.2.3/bin/bundle exec jekyll build
+        - /home/ubuntu/.rvm/rubies/ruby-2.2.3/bin/bundle exec htmlproof
 
 deployment:
 
